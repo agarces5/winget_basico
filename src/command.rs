@@ -30,7 +30,7 @@ impl WingetCommand {
             args.push("-v".to_string());
             args.push(ver);
         }
-        println!("\nIniciando la instalacion de {}\n", &id);
+        println!("\nwinget {}\n", &args.join(" "));
         Command::new("winget")
             .args(args)
             .status()
