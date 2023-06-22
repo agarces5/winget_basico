@@ -1,5 +1,9 @@
 # Script de instalacion de programas basicos
 
+## Descripcion
+
+Script para la instalacion de algunos programas comunes utilizando la herramienta de Windows `winget` y construido con Rust con el patron Builder.
+
 ## Prerrequisitos
 
 Se necesita tener instalado `winget`.
